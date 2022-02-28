@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Inter var;
+    font-style: normal;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('/fonts/Inter-roman.var.ttf?v=3.19') format('truetype');
+    font-named-instance: Regular;
+  }
+
+  @font-face {
+    font-family: Inter var;
+    font-style: italic;
+    font-weight: 100 900;
+    font-display: swap;
+    src: url('/fonts/Inter-italic.var.ttf?v=3.19') format('truetype');
+    font-named-instance: Italic;
+  }
+}

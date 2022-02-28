@@ -34,7 +34,7 @@ function Document({
   title?: string
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full">
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -42,7 +42,7 @@ function Document({
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className="h-full bg-gray-100 text-gray-500 antialiased dark:bg-gray-900 dark:text-gray-400">
         {children}
         <ScrollRestoration />
         <Scripts />

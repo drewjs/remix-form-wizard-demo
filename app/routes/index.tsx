@@ -1,7 +1,7 @@
 export default function Index() {
   return (
     <div>
-      <h1 className="text-6xl font-bold text-blue-600 underline">
+      <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
         Welcome to Remix
       </h1>
       <ul>
