@@ -8,6 +8,7 @@ import {
   useCatch,
 } from 'remix'
 import type { LinksFunction, MetaFunction } from 'remix'
+
 import tailwindStyles from '~/styles/tailwind.css'
 
 export let links: LinksFunction = () => {
@@ -42,7 +43,7 @@ function Document({
         <Meta />
         <Links />
       </head>
-      <body className="h-full bg-gray-100 text-gray-500 antialiased dark:bg-gray-900 dark:text-gray-400">
+      <body className="h-full bg-gray-50 text-gray-600 antialiased dark:bg-gray-900 dark:text-gray-400">
         {children}
         <ScrollRestoration />
         <Scripts />
