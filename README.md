@@ -26,14 +26,14 @@ Open this example on [CodeSandbox](https://codesandbox.com):
 
 ### Code quality
 
-- [Cypress](https://www.cypress.io) for acceptance testing
-- [Vitest](https://vitest.dev) for unit testing
+- [Cypress](https://www.cypress.io) for end-to-end tests
+- [Vitest](https://vitest.dev) for unit tests
 - [Eslint](https://remix.run/docs) for code linting
-- [Prettier](https://remix.run/docs) for formatting
+- [Prettier](https://remix.run/docs) for file formatting
 
 ### Notable libraries
 
-- [Dotenv](https://github.com/motdotla/dotenv) for storing configuration (see [Twelve-Factor App](http://12factor.net/config) Methodology)
+- [Dotenv](https://github.com/motdotla/dotenv) for configuration (see [Twelve-Factor App](http://12factor.net/config) Methodology)
 - [Zod](https://remix.run/docs) for input parsing
 
 Remix eliminates the need for additional auth, forms, fetching, state-management and other helper libraries.
